@@ -1,9 +1,9 @@
 terraform {
-    cloud {
-       organization = "deep-dive-globo-35"
+  cloud {
+    organization = "deep-dive-globo-35"
 
-       workspaces {
-         name = "web-network-dev"
-       }
+    workspaces {
+      name = "web-network-dev"
     }
+  }
 }
